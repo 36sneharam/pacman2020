@@ -8,7 +8,7 @@ To install libraries on Arduino, go to the Tools menu and click Manage Libraries
 # Programs to test the sensor 
 Here are some pieces of code and wiring instructions to help you get started with using the ultrasonic sensor. 
 
-## 1. Plot/Print Distance 
+## 1. Plot/Print Distance (us_printdistance.inu)
 
 Connect the sensor pins like this: 
 * vcc to 5V 
@@ -20,4 +20,4 @@ Modify the arduino code so the trigpin and echopin parameters reflect the digita
 
 To plot the distance measurements, open up Serial Plotter from the Tools menu. This should open up a new window with a graph. To print the distance measurement, open up Serial Monitor from the Tools menu. This should open up a new window as well. 
 
-Upload the code to the arduino and move the sensor around. You should see varying distances. 
+Upload the code from us_printdistance.inu to the arduino and move the sensor around. You should see varying distances. 
